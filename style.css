@@ -154,7 +154,7 @@ nav ul li a:hover::after {
     justify-content: space-around;
     align-items: center;
     padding: 0 10rem;
-    background: linear-gradient(var(--color-bg), rgba(255, 255, 255, 0)), url(/images/bg.jpg);
+    background: linear-gradient(var(--color-bg), rgba(255, 255, 255, 0)), url(bg.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
