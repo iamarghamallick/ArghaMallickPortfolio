@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARGHA MALLICK - Portfolio</title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prosto+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- ============================================ header section ================================= -->
+    <div id="header">
+        <nav class="navbar">
+            <h2 class="title"><a href="/">H<span class="highlight">ELLO</span>A<span class="highlight">RGHA</span></a>
+            </h2>
+            <ul class="nav-list">
+                <li class="nav-list-item" class="active"><a href="/">Home</a></li>
+                <li class="nav-list-item"><a href="#about">About</a></li>
+                <li class="nav-list-item"><a href="#services">Secvices</a></li>
+                <li class="nav-list-item"><a href="#portfolio">Portfolio</a></li>
+                <li class="nav-list-item contact-btn"><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="ri-menu-fill" id="menu-open-btn"></i>
+                <i class="ri-close-fill" id="menu-close-btn"></i>
+            </div>
+        </nav>
+        <div id="home">
+            <div class="header-left">
+                <p>Hello, my name is</p>
+                <h1>Argha Mallick</h1>
+                <p>and I'm a <span class="typing text-highlight">Web Developer</span></p>
+                <p>From <span class="text-highlight">Kolkata</span></p>
+                <button class="btn cv-btn">Download CV</button>
+                <div class="social-links">
+                    <a href="https://in.linkedin.com/in/argha-mallick-8b81251a3" target="_blank"
+                        class="social-link fa fa-linkedin"></a>
+                    <a href="https://facebook.com/iam_arghamallick" target="_blank"
+                        class="social-link fa fa-facebook"></a>
+                    <a href="https://twitter.com/iamarghamallick" target="_blank" class="social-link fa fa-twitter"></a>
+                    <a href="https://instagram.com/iamarghamallick" target="_blank"
+                        class="social-link fa fa-instagram"></a>
+                    <a href="https://github.com/iamarghamallick" target="_blank" class="social-link fa fa-github"></a>
+                </div>
+            </div>
+            <img src="/images/hero.jpeg" alt="hero-bg">
+        </div>
+    </div>
+    <!-- =================================== header section ends here ================================= -->
+    <!-- ============================================ about section =========================================== -->
+    <div id="about">
+        <div class="about-left">
+            <img src="/images/hero.jpeg" alt="">
+        </div>
+        <div class="about-right">
+            <h2 class="about-title"><span class="title-highlight">About</span> Me</h2>
+            <p class="about-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis minus
+                blanditiis incidunt eveniet aliquam veniam dolor consequatur maiores rerum debitis ipsam eaque illum
+                dignissimos aperiam beatae aspernatur, quod amet, fugit sint vitae repudiandae quasi mollitia enim
+                cumque? Eaque exercitationem consequuntur recusandae repudiandae ipsa vitae, nostrum velit commodi at?
+                Excepturi, voluptatem laborum dolor accusantium, modi provident adipisci iure at esse fuga nulla. Nemo
+                doloremque similique culpa sapiente pariatur vitae, quod dignissimos recusandae ex obcaecati
+                perspiciatis explicabo.</p>
+            <ul class="tab-titles">
+                <li class="tab-links active-link" onclick="opentab('skills')">Skills</li>
+                <li class="tab-links" onclick="opentab('experiance')">Experiance</li>
+                <li class="tab-links" onclick="opentab('education')">Education</li>
+            </ul>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span class="title"><i class='far fa-calendar-check'></i> UI/UX</span><br><span
+                            class="description">Designing Web/App interfaces</span></li>
+                    <li><span class="title"><i class='far fa-calendar-check'></i> Web Development</span><br><span
+                            class="description">Web app Development</span></li>
+                    <li><span class="title"><i class='far fa-calendar-check'></i> Lorem, ipsum</span><br><span
+                            class="description">Lorem ipsum dolor sit amet</span></li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="experiance">
+                <ul>
+                    <li><span class="title"><i class='fas fa-award'></i> 2022 - Current</span><br><span
+                            class="description">Student</span></li>
+                    <li><span class="title"><i class='fas fa-award'></i> 2022 - Current</span><br><span
+                            class="description">Student</span></li>
+                    <li><span class="title"><i class='fas fa-award'></i> 2022 - Current</span><br><span
+                            class="description">Student</span></li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span class="title"><i class='fas fa-graduation-cap'></i> 2022 - Present</span><br><span
+                            class="description">B Tech in CSE from BPPIMT</span></li>
+                    <li><span class="title"><i class='fas fa-graduation-cap'></i> 2022 - Present</span><br><span
+                            class="description">B Tech in CSE from BPPIMT</span></li>
+                    <li><span class="title"><i class='fas fa-graduation-cap'></i> 2022 - Present</span><br><span
+                            class="description">B Tech in CSE from BPPIMT</span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- ============================================ about section ends here ================================= -->
+    <!-- =================================== services section ================================================== -->
+    <div id="services">
+        <h2 class="services-title">My <span class="title-highlight">Services</span></h2>
+        <div class="services-box-list">
+            <div class="services-box">
+                <i class="ri-macbook-line"></i>
+                <h4>Web Design</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti excepturi eius amet nihil, sit
+                    porro soluta, corporis, perferendis consequatur maiores vel neque molestiae non odit vitae
+                    necessitatibus inventore pariatur modi.</p>
+                <button class="btn services-btn">Read More...</button>
+            </div>
+            <div class="services-box">
+                <i class="ri-code-s-slash-line"></i>
+                <h4>Web Development</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti excepturi eius amet nihil, sit
+                    porro soluta, corporis, perferendis consequatur maiores vel neque molestiae non odit vitae
+                    necessitatibus inventore pariatur modi.</p>
+                <button class="btn services-btn">Read More...</button>
+            </div>
+            <div class="services-box">
+                <i class="ri-edit-line"></i>
+                <h4>Creative Design</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti excepturi eius amet nihil, sit
+                    porro soluta, corporis, perferendis consequatur maiores vel neque molestiae non odit vitae
+                    necessitatibus inventore pariatur modi.</p>
+                <button class="btn services-btn">Read More...</button>
+            </div>
+        </div>
+        <button class="btn more-details-btn">More Details</button>
+    </div>
+    <!-- =================================== services section ends here ================================= -->
+
+    <!-- =================================== portfolio section  ========================================== -->
+    <div id="portfolio">
+        <h2 class="portfolio-title"><span class="title-highlight">Latest</span> Projects</h2>
+        <div class="work-list">
+            <div class="work">
+                <img src="/images/work-1.png" alt="">
+                <div class="layer">
+                    <h3>To-Do Web App</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo culpa nisi qui est obcaecati
+                        tempore quam assumenda. Expedita, molestiae libero.</p>
+                    <a href="#"><i class="ri-external-link-fill"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/images/work-2.png" alt="">
+                <div class="layer">
+                    <h3>To-Do Web App</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo culpa nisi qui est obcaecati
+                        tempore quam assumenda. Expedita, molestiae libero.</p>
+                    <a href="#"><i class="ri-external-link-fill"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/images/work-3.png" alt="">
+                <div class="layer">
+                    <h3>To-Do Web App</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo culpa nisi qui est obcaecati
+                        tempore quam assumenda. Expedita, molestiae libero.</p>
+                    <a href="#"><i class="ri-external-link-fill"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/images/work-3.png" alt="">
+                <div class="layer">
+                    <h3>To-Do Web App</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo culpa nisi qui est obcaecati
+                        tempore quam assumenda. Expedita, molestiae libero.</p>
+                    <a href="#"><i class="ri-external-link-fill"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/images/work-3.png" alt="">
+                <div class="layer">
+                    <h3>To-Do Web App</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo culpa nisi qui est obcaecati
+                        tempore quam assumenda. Expedita, molestiae libero.</p>
+                    <a href="#"><i class="ri-external-link-fill"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/images/work-1.png" alt="">
+                <div class="layer">
+                    <h3>To-Do Web App</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo culpa nisi qui est obcaecati
+                        tempore quam assumenda. Expedita, molestiae libero.</p>
+                    <a href="#"><i class="ri-external-link-fill"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/images/work-2.png" alt="">
+                <div class="layer">
+                    <h3>To-Do Web App</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo culpa nisi qui est obcaecati
+                        tempore quam assumenda. Expedita, molestiae libero.</p>
+                    <a href="#"><i class="ri-external-link-fill"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/images/work-3.png" alt="">
+                <div class="layer">
+                    <h3>To-Do Web App</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo culpa nisi qui est obcaecati
+                        tempore quam assumenda. Expedita, molestiae libero.</p>
+                    <a href="#"><i class="ri-external-link-fill"></i></a>
+                </div>
+            </div>
+        </div>
+        <button class="btn more-details-btn">See More</button>
+    </div>
+    <!-- =================================== portfolio section ends here ================================= -->
+
+    <!-- =================================== contact section ============================================ -->
+    <div id="contact">
+        <div class="contact-left">
+            <h2 class="portfolio-title">Contact <span class="title-highlight">Me</span></h2>
+            <span class="contact-details"><i class="ri-send-plane-fill"></i> <a
+                    href="mailto:contact.arghamallick@gmail.com">contact.arghamallick@gmail.com</a></span>
+            <span class="contact-details"><i class="ri-phone-fill"></i><a href="tel:+919330927535">+91
+                    9330927535</a></span>
+            <div class="contact-media">
+                <ul>
+                    <a href="https://in.linkedin.com/in/argha-mallick-8b81251a3" target="_blank">
+                        <li><i class="ri-linkedin-fill"></i></li>
+                    </a>
+                    <a href="https://www.facebook.com/iam_arghamallick" target="_blank">
+                        <li><i class="ri-facebook-circle-fill"></i></li>
+                    </a>
+                    <a href="https://twitter.com/iamarghamallick" target="_blank">
+                        <li><i class="ri-twitter-fill"></i></li>
+                    </a>
+                    <a href="https://www.instagram.com/iamarghamallick/" target="_blank">
+                        <li><i class="ri-instagram-fill"></i></li>
+                    </a>
+                    <a href="https://github.com/iamarghamallick" target="_blank">
+                        <li><i class="ri-github-fill"></i></li>
+                    </a>
+                </ul>
+            </div>
+            <button class="btn contact-cv-btn">Download CV</button>
+        </div>
+        <div class="contact-right">
+            <form action="submit" class="contact-form" name="submit-to-google-sheet">
+                <input type="text" name="Name" id="name" placeholder="Your Name" id="name" required>
+                <input type="email" name="Email" id="email" placeholder="Your Email" id="email" required>
+                <textarea name="Message" id="message" rows="6" placeholder="Your Message" id="message"
+                    required></textarea>
+                <button type="submit" class="btn contact-form-btn" id="submit-form">Submit</button>
+            </form>
+            <span id="msg"></span>
+        </div>
+    </div>
+    <!-- =================================== contact section ends here ================================= -->
+
+    <!-- =================================== footer ==================================================== -->
+    <footer>
+        <p>2023 &copy Argha Mallick</p>
+    </footer>
+    <!-- =================================== footer ends here ========================================= -->
+
+
+
+    <!-- scripts  -->
+    <script src="/scripts/script.js"></script>
+    <script src="https://kit.fontawesome.com/b955eaf29b.js" crossorigin="anonymous"></script>
+    <!-- end of scripts  -->
+</body>
+
+</html>
